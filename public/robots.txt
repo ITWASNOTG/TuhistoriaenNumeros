@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tuhistoriaennumeros.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Disallow patterns
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Allow patterns
+Allow: /privacidad
+Allow: /terminos
+Allow: /*.html$
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.ico$
+
+# Host
+Host: https://tuhistoriaennumeros.com
